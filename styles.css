@@ -12,6 +12,7 @@ body,html{
     font-size: large;
 }
 
+
 .name{
     display: flex;
     text-align: left;
@@ -49,6 +50,10 @@ body,html{
 
 h3{
     margin: 0px;
+}
+
+.sh1{
+    font-size: 1.8rem;
 }
 
 a{
@@ -100,6 +105,8 @@ footer a:hover{
 
 .header2{
     background-color: #FFA2A6 ;
+    font-size: 2.5rem;
+    font-weight: bolder;
     margin:20px 0;
     text-align: center;
     padding: 10px 0;
@@ -117,7 +124,7 @@ footer a:hover{
     font-family: 'Neucha', cursive;
     background-color: #FFA2A6;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     z-index: -1;
 }
 
@@ -232,7 +239,8 @@ footer a:hover{
 
 .rule-text{
     width: auto;
-    font-size: 30px;
+    font-size: 2.5rem;
+    font-weight: bold;
     padding: 0 68px;
     font-family: 'Neucha', cursive;
     opacity: 5px;
@@ -255,6 +263,9 @@ footer a:hover{
  
 li{
     padding: 5px 0;
+    font-size: 1.2rem;
+    color: #765AE6;
+    font-weight: 600;
 }
 
  footer{
@@ -273,7 +284,8 @@ li{
         font-size: small;
     }
     .rule-text{
-        font-size: small;
+        font-size: 1.5rem;
+        font-weight: bold;
         padding: 0 1px;
     }
     .rule-box{
