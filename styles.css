@@ -339,9 +339,13 @@ li{
         padding: 5px 0;
         margin: 2px 0;
     }
-    .dp{
-        height: 150px;
-        width: 150px;
+    .headline{
+        display: inline-block;
+        margin: 210px -75px;
+        padding: 60px 30px;
+    }
+    .headline p{
+        font-size: large;
     }
     
 }
