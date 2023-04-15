@@ -22,7 +22,7 @@ else{
     msg="HELLO Good Night";
 }
 
-var msg1="I am a MERN Stack Developer"
+var msg1="MERN Stack Developer"
 
 $(document).ready(function(){
     $(".msg1").html(msg)
