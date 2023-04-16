@@ -131,7 +131,7 @@ footer a:hover{
 
 .skill{
     padding: 20px 10px;
-    background-color: #FFB000;
+    background-color: #ffc107;
     display: flex;
     justify-content: space-evenly;
     z-index: -1;
@@ -168,7 +168,7 @@ footer a:hover{
 }
 
 .p1{
-    background-color: #F29F05;
+    background-color: #ffc107;
     font-size: large;
     margin: 0 auto;
     height: 220px;
@@ -177,7 +177,7 @@ footer a:hover{
 }
 
 .p2{
-    background-color: #F29F05;
+    background-color: #ffc107;
     font-size: large;
     padding: 30px 60px;
     margin: 0 auto;
@@ -324,7 +324,7 @@ li{
     
     .p1{
         height: 150px;
-        width: 130px;
+        width: 116px;
     }
     .p2{
         height: 150px;
@@ -339,9 +339,12 @@ li{
         padding: 5px 0;
         margin: 2px 0;
     }
+    .sh1{
+        font-size: 1.2rem;
+    }
     .headline{
         display: inline-block;
-        margin: 210px -75px;
+        margin: 180px -136px;
         padding: 60px 30px;
     }
     .headline p{
