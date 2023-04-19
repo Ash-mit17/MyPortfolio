@@ -3,23 +3,23 @@ body,html{
     margin: 0;
     font-family: 'Neucha', cursive;
     overflow-x: hidden;
-    color: #111;
 }
 
 .nav{
     height: 100px;
+    
     display:flex;
-    background-color: #D9D8D7;
+    justify-content: center;
+    background-color: #B457F2;
     font-size: large;
 }
 
 
 .name{
-    display: flex;
-    text-align: left;
-    justify-items: left;
+    display: inline-flex;
+    justify-content: flex-start;
     height: 100px;
-    width: 120px;
+    width: 45%;
 }
 
 .container{
@@ -30,13 +30,19 @@ body,html{
 
 .links{
     display: flex;
-    justify-items: right;
+    justify-content: flex-start;
     align-content: center;
-    margin-left: auto;
     padding: 30px 15px;
     list-style: none;
-    font-size: larger;
 }
+.link-item{
+    padding: 0 10px;
+    font-size: 1.7rem;
+}
+.txt:hover{
+    color: #371559;
+}
+
 
 .profile{
     height: 30px;
@@ -44,6 +50,12 @@ body,html{
     display: flex;
     padding: 0 20px;
     justify-content: space-around;
+}
+.profile-img{
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 40px;
 }
 
 h3{
@@ -64,7 +76,7 @@ footer a:hover{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    width: 100%;
+    width: 85%;
     height: 650px;
     justify-content: flex-end;
 }
@@ -81,9 +93,9 @@ footer a:hover{
 
 .headline{
     display: block;
-    margin: 165px 175px;
+    margin: 101px -15px;
     padding: 60px 30px;
-    color: #0388A6;
+    color: #0D0D0D;
 }
 .headline p{
     font-size: 2rem;
@@ -131,7 +143,7 @@ footer a:hover{
 
 .skill{
     padding: 20px 10px;
-    background-color: #ffc107;
+    background-color: #DAB6F2;
     display: flex;
     justify-content: space-evenly;
     z-index: -1;
@@ -168,7 +180,7 @@ footer a:hover{
 }
 
 .p1{
-    background-color: #ffc107;
+    background-color: #CE99F2;
     font-size: large;
     margin: 0 auto;
     height: 220px;
@@ -177,7 +189,7 @@ footer a:hover{
 }
 
 .p2{
-    background-color: #ffc107;
+    background-color: #CE99F2;
     font-size: large;
     padding: 30px 60px;
     margin: 0 auto;
@@ -202,19 +214,6 @@ footer a:hover{
     box-shadow: 8px 8px 8px;
 }
 
-
-.msgbox{
-    margin-top: 80px;
-    border-top:solid 4px  #65C18C;
-    border-left:solid 4px  #65C18C;
-    border-right:solid 4px  #65C18C;
-    border-bottom:solid 4px  #65C18C;
-    background-color: #B4CF66;
-    border-radius: 25px;
-    height: 300px;
-    width: 400px;
-    margin-left: 600px;
-}
 
 .items{
     color: #000;
@@ -244,8 +243,10 @@ footer a:hover{
     font-size: 2.5rem;
     font-weight: bold;
     padding: 0 68px;
-    opacity: 5px;
-    text-shadow: 0 2px 8px #edea05;
+    color: black;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+    
 }
 
 .rule-text1{
@@ -255,8 +256,10 @@ footer a:hover{
     font-size: 2.5rem;
     font-weight: bold;
     padding: 0 68px;
-    opacity: 5px;
-    text-shadow: 0 2px 8px #edea05;
+    color: black;
+	-webkit-text-stroke: 1px black;
+	-webkit-text-fill-color: white;
+    
 }
 
  .rule2{
@@ -270,7 +273,7 @@ footer a:hover{
     display:inline-block;
     padding-right: 15px;
     padding-top: 8px;
-    color:rebeccapurple;
+    color: black;
  }
  
 li{
@@ -287,13 +290,16 @@ li{
     font-family: 'Concert One', cursive;
     padding: 45px 15px;
     color: aqua;
-    background-color: #F29F05;
+    background-color: #B457F2;
     height: 30px;
 }
 
 @media only screen and (max-width:650px){
     .bio{
-        font-size: small;
+        display: none;
+    }
+    li{
+        padding: 0;
     }
     .rule-text{
         font-size: 1rem;
@@ -344,11 +350,34 @@ li{
     }
     .headline{
         display: inline-block;
-        margin: 180px -136px;
+        margin: 52px -26px;
         padding: 60px 30px;
     }
     .headline p{
-        font-size: large;
+        font-size: 0.5rem;
+ 
+    }
+    .name{
+        display: flex;
+        font-size: 0.5rem;
+        align-items: center;
+        justify-content: center;
+    }
+    .name h1{
+        padding: 15px 0;
+    }
+    .txt{
+        font-size: 1rem;
+    }
+    .dpbox{
+        display: flex;
+        background-image: url('ash1.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 85%;
+        height: 350px;
+        justify-content: flex-end;
     }
     
 }
