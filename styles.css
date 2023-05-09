@@ -246,7 +246,7 @@ span{
   .flip-container {
     perspective: 1000px;
     width: 200px;
-    height: 220px;
+    height: 230px;
   }
   
   .flipper {
