@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Button from '@mui/material/Button';
 
 export default function Index() {
     return (
@@ -74,7 +75,7 @@ export default function Index() {
                             </div>
                         </div>
                         <p style={{"margin": "10px 0"}}>PG Website</p>
-                        <p><Link to="https://www.srinimishambapg.in/">Visit</Link></p>
+                        <Button variant="contained" color='secondary'><Link to="https://www.srinimishambapg.in/"><h3>Visit</h3></Link></Button>
                     </div>
                     <div className="grid-item1">
                         <div className="flip-container">
@@ -94,8 +95,8 @@ export default function Index() {
                             </div>
                         </div>
                         <p style={{"margin": "10px 0"}}>Task Manager</p>
-                        <p><Link to="https://task-manager-mhhh.onrender.com">Visit</Link></p>
-                        <Link to="https://github.com/Ash-mit17/TaskManager-body">ViewCode</Link>
+                        <Button variant="contained" color='secondary' style={{"margin":"8px 0"}}><Link to="https://task-manager-mhhh.onrender.com"><h3>Visit</h3></Link></Button>
+                        <Button variant="contained" color='secondary'><Link to="https://github.com/Ash-mit17/TaskManager-body"><h3>ViewCode</h3></Link></Button>
                     </div>
                     <div className="grid-item1">
                         <div className="flip-container">
@@ -115,8 +116,8 @@ export default function Index() {
                             </div>
                         </div>
                         <p style={{"margin": "10px 0"}}>TicTacToe</p>
-                        <p><Link to="https://ash-mit17.github.io/TIC-TAC-TOE/">Visit</Link></p>
-                        <Link to="https://github.com/Ash-mit17/TIC-TAC-TOE">ViewCode</Link>
+                        <Button variant="contained" color='secondary' style={{"margin":"8px 0"}}><Link to="https://ash-mit17.github.io/TIC-TAC-TOE/"><h3>Visit</h3></Link></Button>
+                        <Button variant="contained" color='secondary'><Link to="https://github.com/Ash-mit17/TIC-TAC-TOE"><h3>ViewCode</h3></Link></Button>
                     </div>
                 </div>
             </div>
