@@ -1,10 +1,11 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Resume() {
     return (
         <>
             <nav class="navbar">
-                <a class="navs" href="index.html">Home</a>
+                <Link class="navs" to="/">Home</Link>
             </nav>
             <center>
                 <h1 style={{ "color": "green" }}>My Resume</h1>
