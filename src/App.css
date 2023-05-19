@@ -345,8 +345,8 @@ span{
     
     .grid-item {
       margin: 3px 3px;
-      height: 36px;
-      width: 120px;
+      /* height: 36px;
+      width: 120px; */
       font-size: 1.5rem;
       padding: 10px;
       text-align: center;

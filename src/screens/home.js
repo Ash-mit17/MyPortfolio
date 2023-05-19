@@ -47,6 +47,7 @@ export default function Index() {
                     <div className="grid-item">Node Js<i className="bx bxl-nodejs"></i></div>
                     <div className="grid-item">MongoDb<i className="bx bxl-mongodb"></i></div>
                     <div className="grid-item">ReactJs<i className="bx bxl-react"></i></div>
+                    <div className="grid-item">Solidity <img src="images/solidity-icon.png" style={{"height": "20px", "width": "20px"}} alt="solidity" /></div>
                     {/* <!-- <div className="grid-item"></div>
                             <div className="grid-item"></div>   --> */}
                 </div>
