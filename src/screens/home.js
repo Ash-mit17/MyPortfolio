@@ -10,7 +10,7 @@ export default function Index() {
 
                 <div className="bx bx-menu" id="menu-icon"></div>
 
-                <nav className="navbar">
+                <nav className="navbar" >
                     <a className="navs" href="#home">Home</a>
                     <a className="navs" href="#skills">Skills</a>
                     <Link className="navs" to="/about">About</Link>
