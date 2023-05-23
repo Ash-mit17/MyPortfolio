@@ -195,6 +195,7 @@ span{
   margin: 5px 5px;
   background-color: var(--second-bg-color);
   border: 2px solid var(--main-color);
+  border-radius: 5px;
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -227,6 +228,7 @@ span{
   margin: 5px 5px;
   background-color: var(--second-bg-color);
   border: 2px solid var(--main-color);
+  border-radius: 5px;
   padding: 20px;
   font-size: 2rem;
   text-align: center;
@@ -240,7 +242,7 @@ span{
 }
 
 .linkbox{
-  margin: 30px 0;
+  margin: 50px 0;
   display: flex;
   justify-content: center;
 }

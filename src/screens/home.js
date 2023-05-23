@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Button from '@mui/material/Button';
+import Card from '../components/card'
 
 export default function Index() {
     return (
@@ -57,69 +57,9 @@ export default function Index() {
                 <h2 className="heading">My <span>Projects</span></h2>
 
                 <div className="grid-container1">
-                    <div className="grid-item1">
-                        <div className="flip-container">
-                            <div className="flipper">
-                                <div className="front">
-                                    <img
-                                        style={{"height": "200px", "width": "200px"}}
-                                        src="images/pg.png"
-                                        alt="pg"
-                                    />
-                                    <p style={{"color": "lightseagreen"}}>More...</p>
-                                </div>
-                                <div className="back">
-                                    <p>Created for a pg owner</p>
-                                    <p>Tech used <span>MERN</span></p>
-                                    <p>Frontend on <span>Aws amplify</span> Backend on <span>Aws EC2</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <p style={{"margin": "10px 0"}}>PG Website</p>
-                        <Button variant="contained" color='secondary'><Link to="https://www.srinimishambapg.in/"><h3>Visit</h3></Link></Button>
-                    </div>
-                    <div className="grid-item1">
-                        <div className="flip-container">
-                            <div className="flipper">
-                                <div className="front">
-                                    <img
-                                        style={{"height": "200px", "width": "200px"}}
-                                        src="images/ns.png"
-                                        alt="pg"
-                                    />
-                                    <p style={{"color": "lightseagreen"}}>More...</p>
-                                </div>
-                                <div className="back">
-                                    <p>Tech Used <span>MERN</span></p>
-                                    <p>Simple application of <span>CRUD</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <p style={{"margin": "10px 0"}}>Task Manager</p>
-                        <Button variant="contained" color='secondary' style={{"margin":"8px 0"}}><Link to="https://task-manager-mhhh.onrender.com"><h3>Visit</h3></Link></Button>
-                        <Button variant="contained" color='secondary'><Link to="https://github.com/Ash-mit17/TaskManager-body"><h3>ViewCode</h3></Link></Button>
-                    </div>
-                    <div className="grid-item1">
-                        <div className="flip-container">
-                            <div className="flipper">
-                                <div className="front">
-                                    <img
-                                        style={{"height": "200px","width": "200px"}}
-                                        src="images/tictac.png"
-                                        alt="pg"
-                                    />
-                                    <p style={{"color": "lightseagreen"}}>More...</p>
-                                </div>
-                                <div className="back">
-                                    <p>My first project</p>
-                                    <p>Used <span>DOM</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <p style={{"margin": "10px 0"}}>TicTacToe</p>
-                        <Button variant="contained" color='secondary' style={{"margin":"8px 0"}}><Link to="https://ash-mit17.github.io/TIC-TAC-TOE/"><h3>Visit</h3></Link></Button>
-                        <Button variant="contained" color='secondary'><Link to="https://github.com/Ash-mit17/TIC-TAC-TOE"><h3>ViewCode</h3></Link></Button>
-                    </div>
+                    <Card imgsrc="images/pg.png" title="PG Website" back="Created a website for a pg owner , team project , deployed on AWS" projectlink="https://www.srinimishambapg.in/" ></Card>
+                    <Card imgsrc="images/ns.png" title="Task Manager" back="CRUD in mongo db" projectlink="https://task-manager-mhhh.onrender.com/" githublink="https://github.com/Ash-mit17/TaskManager-body"></Card>
+                    <Card imgsrc="images/tictac.png" title="TIC TAC TOE" back="My First Project Used Dom" projectlink="https://ash-mit17.github.io/TIC-TAC-TOE/" githublink="https://github.com/Ash-mit17/TIC-TAC-TOE"></Card>
                 </div>
             </div>
             <hr />
@@ -135,6 +75,7 @@ export default function Index() {
                     <Link to="https://github.com/Ash-mit17"><i className="bx bxl-github"></i></Link>
                 </div>
             </div>
+            <hr style={{"border":"0","height":"2px","backgroundImage":"linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0))","margin":"30px 0"}} />
         </>
     )
 }
