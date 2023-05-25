@@ -60,6 +60,7 @@ export default function Index() {
                     <Card imgsrc="images/pg.png" title="PG Website" back="Created a website for a pg owner , team project , deployed on AWS" projectlink="https://www.srinimishambapg.in/" ></Card>
                     <Card imgsrc="images/ns.png" title="Task Manager" back="CRUD in mongo db" projectlink="https://task-manager-mhhh.onrender.com/" githublink="https://github.com/Ash-mit17/TaskManager-body"></Card>
                     <Card imgsrc="images/tictac.png" title="TIC TAC TOE" back="My First Project Used Dom" projectlink="https://ash-mit17.github.io/TIC-TAC-TOE/" githublink="https://github.com/Ash-mit17/TIC-TAC-TOE"></Card>
+                    <Card imgsrc="images/foodCart.png" title="Food Cart" back="Used jwt context api useReducer Modals" projectlink="https://easyfood-yotx.onrender.com/" githublink="https://github.com/Ash-mit17/foodcart-frontend"></Card>
                 </div>
             </div>
             <hr />
