@@ -61,6 +61,7 @@ export default function Index() {
                     <Card imgsrc="images/ns.png" title="Task Manager" back="CRUD in mongo db" projectlink="https://task-manager-mhhh.onrender.com/" githublink="https://github.com/Ash-mit17/TaskManager-body"></Card>
                     <Card imgsrc="images/tictac.png" title="TIC TAC TOE" back="My First Project Used Dom" projectlink="https://ash-mit17.github.io/TIC-TAC-TOE/" githublink="https://github.com/Ash-mit17/TIC-TAC-TOE"></Card>
                     <Card imgsrc="images/foodCart.png" title="Food Cart" back="Used jwt context api useReducer Modals" projectlink="https://easyfood-yotx.onrender.com/" githublink="https://github.com/Ash-mit17/foodcart-frontend"></Card>
+                    <Card imgsrc="images/Dapp.png" title="Chai DApp" back="First solidity project used hardhat ether js metamask" projectlink="https://chaidappeth.netlify.app/" githublink="https://github.com/Ash-mit17/ChaiDApp"></Card>
                 </div>
             </div>
             <hr />
