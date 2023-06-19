@@ -8,12 +8,12 @@
   scroll-behavior: smooth;
 }
 
-/* color #081b29   #112e42  #ededed*/
+/* color #081b29   #112e42  #ededed #BF4565*/
 
 :root{
   --bg-color:  #E7F294;
   --second-bg-color:#C0D904;
-  --text-color:  #BF4565;
+  --text-color:  #c61242;
   --main-color: #65A603;
   --second-text-color: #FFFFFF;
 }

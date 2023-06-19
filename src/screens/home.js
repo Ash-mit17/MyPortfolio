@@ -5,10 +5,10 @@ import Card from '../components/card'
 export default function Index() {
     return (
         <>
-            <header class="header">
+            <header style={{backgroundColor: "lightseagreen"}} class="header">
                 <Link to="" class="logo">Ashmit</Link>
 
-                <div className="bx bx-menu" id="menu-icon"></div>
+                <div className="bx bx-menu"  id="menu-icon"></div>
 
                 <nav className="navbar" >
                     <a className="navs" href="#home">Home</a>
